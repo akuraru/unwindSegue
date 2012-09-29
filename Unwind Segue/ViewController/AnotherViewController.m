@@ -1,18 +1,18 @@
 //
-//  SecondViewController.m
+//  AnotherViewController.m
 //  Unwind Segue
 //
 //  Created by P.I.akura on 2012/09/29.
 //  Copyright (c) 2012年 P.I.akura. All rights reserved.
 //
 
-#import "SecondViewController.h"
+#import "AnotherViewController.h"
 
-@interface SecondViewController ()
+@interface AnotherViewController ()
 
 @end
 
-@implementation SecondViewController
+@implementation AnotherViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -36,6 +36,5 @@
 }
 
 - (IBAction)Back:(UIStoryboardSegue*)segue {}
-- (IBAction)SecondView:(UIStoryboardSegue*)segue {}
 
 @end

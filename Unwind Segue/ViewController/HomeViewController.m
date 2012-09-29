@@ -36,6 +36,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)Back:(UIStoryboardSegue*)segue {}
+
 - (IBAction)ShowNaviBar:(UIStoryboardSegue*)segue
 {
     [((UIViewController *)segue.sourceViewController).navigationController setNavigationBarHidden:NO animated:YES];

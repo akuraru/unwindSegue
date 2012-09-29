@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE71DCF816170CAE00477746 /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE71DCF716170CAE00477746 /* AnotherViewController.m */; };
 		BEAD8B431616C6B80007F019 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAD8B421616C6B80007F019 /* UIKit.framework */; };
 		BEAD8B451616C6B80007F019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAD8B441616C6B80007F019 /* Foundation.framework */; };
 		BEAD8B471616C6B80007F019 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEAD8B461616C6B80007F019 /* CoreGraphics.framework */; };
@@ -23,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE71DCF616170CAE00477746 /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnotherViewController.h; path = ViewController/AnotherViewController.h; sourceTree = "<group>"; };
+		BE71DCF716170CAE00477746 /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnotherViewController.m; path = ViewController/AnotherViewController.m; sourceTree = "<group>"; };
 		BEAD8B3E1616C6B80007F019 /* Unwind Segue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Unwind Segue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEAD8B421616C6B80007F019 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BEAD8B441616C6B80007F019 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -129,6 +132,8 @@
 				BEAD8B711616E0960007F019 /* HomeViewController.m */,
 				BEAD8B7B1616E49D0007F019 /* SecondViewController.h */,
 				BEAD8B7C1616E49D0007F019 /* SecondViewController.m */,
+				BE71DCF616170CAE00477746 /* AnotherViewController.h */,
+				BE71DCF716170CAE00477746 /* AnotherViewController.m */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 				BEAD8B6F1616E0830007F019 /* HideNavigationBarSegue.m in Sources */,
 				BEAD8B721616E0960007F019 /* HomeViewController.m in Sources */,
 				BEAD8B7D1616E49D0007F019 /* SecondViewController.m in Sources */,
+				BE71DCF816170CAE00477746 /* AnotherViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +325,7 @@
 				BEAD8B641616C6B80007F019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
